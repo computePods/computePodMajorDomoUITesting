@@ -1,6 +1,17 @@
 # mithril-template ![Logo](https://user-images.githubusercontent.com/2394539/91363092-d0751c00-e7c9-11ea-87da-e34cb58af223.png)
 
-**This repository is a template so you can fork it to create your own applications from it.**
+**This repository has been created, with thanks, from [Joseph 
+Spurrier](https://github.com/josephspurrier)'s 
+[josephspurrier/mithril-template](https://github.com/josephspurrier/mithril-template) 
+template. It was created using the [MIT 
+license](https://github.com/josephspurrier/mithril-template/blob/master/LICENSE). 
+It was created on May 6, 2021 from commit 
+[`c3482ff`](https://github.com/josephspurrier/mithril-template/commit/c3482ff329d6abdb01e9d93212d4dd3f850e0c0c).** 
+
+For reference the following is the original [Readme.md 
+file](https://github.com/josephspurrier/mithril-template/blob/master/README.md): 
+
+---------------------------------------------------------------------------
 
 This is a sample notepad application that uses Mithril with TypeScript. It does also support JSX (.jsx or .tsx file extensions) if you want to use it. This project is designed to show how modern, front-end development tools integrate. It takes a while to piece together your own tools for linting, building, testing, etc. so you can reference this to see how to get all these different tools set up and integrated.
 
