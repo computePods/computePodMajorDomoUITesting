@@ -19,7 +19,7 @@ module.exports = {
       cleanStaleWebpackAssets: false,
     }),
     new HtmlWebpackPlugin({
-      title: 'mithril-template',
+      title: 'computepod-majordomo-ui',
       filename: path.resolve(__dirname, 'dist', 'index.html'),
       favicon: path.resolve(__dirname, 'static', 'favicon.ico'),
     }),
@@ -45,8 +45,8 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       __API_SCHEME__: JSON.stringify('http'),
-      __API_HOST__: JSON.stringify('localhost'),
-      __API_PORT__: JSON.stringify(8080),
+      __API_HOST__: JSON.stringify('0.0.0.0'),
+      __API_PORT__: JSON.stringify(8000),
       __PRODUCTION__: JSON.stringify(!DEV),
       __VERSION__: JSON.stringify('1.0.0'),
       __MOCK_SERVER__: JSON.stringify(true),
@@ -80,7 +80,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, 'dist'),
     historyApiFallback: true,
     hot: true,
-    port: 8080,
+    port: 8000,
   },
   performance: {
     hints: false,

@@ -48,7 +48,7 @@ export const Nav = (): m.Component => {
             m(
               m.route.Link,
               { class: 'navbar-item', href: '/', 'data-cy': 'home-link' },
-              m('strong', 'mithril-template'),
+              m('strong', 'computepod-majordomo-ui'),
             ),
             m(
               'a',

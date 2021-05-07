@@ -1,8 +1,8 @@
 {
-  "name": "mithril-template",
+  "name": "computepod-majordomo-ui",
   "version": "1.0.0",
   "description": "A sample notepad application in Mithril and Bulma.",
-  "main": "mithril-template",
+  "main": "computepod-majordomo-ui",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "watch": "webpack --mode development --watch",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/josephspurrier/mithril-template.git"
+    "url": "git://github.com/computePods/computePodMajorDomoUK.git"
   },
-  "author": "Joseph Spurrier",
-  "license": "MIT",
+  "author": "Stephen Gaito",
+  "license": "Apache-2.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@storybook/addon-a11y": "^6.2.9",

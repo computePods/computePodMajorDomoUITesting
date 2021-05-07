@@ -9,7 +9,7 @@ describe('test the full application', () => {
 
   it('loads the home page', () => {
     cy.clearCookie('auth');
-    cy.visit('http://localhost:8080');
+    cy.visit('http://localhost:8000');
     cy.contains('Login');
   });
 
